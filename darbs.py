@@ -1,7 +1,8 @@
 # Uzraksti programmu, kurā  dators izvēlas 100 skaitļus robežās no 101 līdz 500. Izvēlētie skaitļi tiek izvadīti terminālī.
 
-import 
+import random
 
-for i in range():
-    random-skaitlis=random.randint(101,501,5)
-    print("random-skaitlis")
+for i in range(100):  #Izveidoju lai izvēlas 100 skaitlus
+    random_skaitlis = random.randint(101, 500)  # Lai izvelas skaitlus no 100 lidz 500 robežās
+    print(random_skaitlis)  # Random skaitli lai izdrukā 
+
