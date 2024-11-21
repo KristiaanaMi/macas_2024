@@ -3,6 +3,6 @@
 import random
 
 for i in range(100):  #Izveidoju lai izvēlas 100 skaitlus
-    random_skaitlis = random.randint(101, 501)  # Lai nejauši izvēlas skaitļus no 100 lidz 500 robežās
+    random_skaitlis = random.randint(100, 501)  # Lai nejauši izvēlas skaitļus no 100 lidz 500 robežās
     print(random_skaitlis)  # Random skaitli lai izdrukā 
 
